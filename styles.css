@@ -17,10 +17,19 @@ article{
     margin-bottom: 60px;
 }
 
+aside{
+    background-color: #f7f7f7;
+    border-top: 5px solid #1098ad;
+    border-bottom: 5px solid #1098ad;
+    padding: 50px 0;
+    width: 500px;
+}
+
 .main-header{
     background-color: #f7f7f7;
     padding: 20px 40px;
     margin-bottom: 60px;
+    height: 80px;
 }
 
 .post-header{
@@ -51,6 +60,7 @@ h3{
 h4{
     font-size: 20px;
     text-transform: uppercase;
+    text-align: center;
 }
 
 p{
@@ -99,13 +109,6 @@ article header p{
     list-style: none;
 }
 
-aside{
-    background-color: #f7f7f7;
-    border-top: 5px solid #1098ad;
-    border-bottom: 5px solid #1098ad;
-    padding: 50px 0;
-}
-
 /* .first-li{
     font-weight: bold;
 } */
@@ -142,3 +145,7 @@ a:active{
     font-size: 18px;
 } */
 
+.post-img{
+    width: 100%;
+    height: auto;
+}
