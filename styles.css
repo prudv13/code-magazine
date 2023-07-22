@@ -25,10 +25,10 @@ aside{
     width: 500px;
 }
 
-.container{
+/* .container{
     width: 700px;
     margin: 0 auto;
-}
+} */
 
 .main-header{
     background-color: #f7f7f7;
@@ -129,4 +129,14 @@ a:active{
 .post-img{
     width: 100%;
     height: auto;
+}
+
+nav a:link{
+    margin-right: 30px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+nav a:link:last-child{
+    margin-right: 0;
 }
